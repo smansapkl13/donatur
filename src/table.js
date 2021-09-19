@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
+import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
 
-class Table extends Component {
+
+class TableReport extends Component {
     constructor(props) {
         super(props) //since we are extending class Table so we have to use super in order to override Component class constructor
         this.state = { //state is by default an object
@@ -17,7 +20,7 @@ class Table extends Component {
     renderTableHeader() {
         let header = Object.keys(this.state.students[0])
         return header.map((key, index) => {
-            return <th key={index}>{key.toUpperCase()}</th>
+            return <Th key={index}>{key.toUpperCase()}</Th>
         })
     }
 
@@ -25,14 +28,14 @@ class Table extends Component {
         return this.state.students.map((student, index) => {
            const { no, tanggal, keterangan, debet, kredit, saldo } = student //destructuring
             return (
-                <tr key={no}>
-                <td>{no}</td>
-                <td>{tanggal}</td>
-                <td>{keterangan}</td>
-                <td>{debet}</td>
-                <td>{kredit}</td>
-                <td>{saldo}</td>
-                </tr>
+                <Tr key={no}>
+                <Td>{no}</Td>
+                <Td>{tanggal}</Td>
+                <Td>{keterangan}</Td>
+                <Td>{debet}</Td>
+                <Td>{kredit}</Td>
+                <Td>{saldo}</Td>
+                </Tr>
             )
         })
     }
@@ -43,15 +46,17 @@ class Table extends Component {
                 <br></br>
                 <h1 id='title'>Catatan Pengeluaran Dana Donatur SMANSA 2013 Tahun 2021</h1>
                 <br></br>
-                <table id='students' class='center'>
-                    <tbody>
-                        <tr>{this.renderTableHeader()}</tr>
+                <Table id='students'>
+                    <Thead>
+                    <Tr>{this.renderTableHeader()}</Tr>
+                    </Thead>
+                    <Tbody>
                         {this.renderTableData()}
-                    </tbody>
-                </table>
+                    </Tbody>
+                </Table>
             </div>
         )
     }
 }
 
-export default Table
+export default TableReport

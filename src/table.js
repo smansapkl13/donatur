@@ -42,8 +42,8 @@ class TableReport extends Component {
         },
         {
           no: 4,
-          tanggal: '19 Sept 2021',
-          keterangan: 'Saldo per 19/09',
+          tanggal: '20 Sept 2021',
+          keterangan: 'Penyaluran uang duka ayahanda Yanuar',
           debet: '-',
           kredit: 'Rp540.000',
           saldo: 'Rp1.720.009',

@@ -91,9 +91,7 @@ class TableReport extends Component {
         </Table>
         <br></br>
         <br></br>
-        <h3 id='title'>
-          Saldo akhir : <b>Rp1.720.009</b>
-        </h3>
+        Saldo akhir : <b>Rp1.720.009</b>
       </div>
     );
   }

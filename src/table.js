@@ -92,6 +92,10 @@ class TableReport extends Component {
         <br></br>
         <br></br>
         Saldo akhir : <b>Rp1.720.009</b>
+        <p id='note'>
+          *Untuk tampilan lebih baik dapat menggunakan laptop atau browser
+          smartphone dengan mode desktop diaktifkan
+        </p>
       </div>
     );
   }

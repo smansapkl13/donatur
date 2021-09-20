@@ -21,6 +21,10 @@ table.center {
   margin-right:auto;
 }
 
+#note {
+  color: silver;
+}
+
 #students {
   text-align: center;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;

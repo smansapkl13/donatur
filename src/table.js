@@ -96,6 +96,9 @@ class TableReport extends Component {
           *Untuk tampilan lebih baik dapat menggunakan laptop atau browser
           smartphone dengan mode desktop diaktifkan
         </p>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
     );
   }

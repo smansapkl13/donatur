@@ -3,8 +3,8 @@ import TableReport from './table';
 
 function App() {
   return (
-    <div className="App">
-      <TableReport/>
+    <div className='App'>
+      <TableReport />
     </div>
   );
 }

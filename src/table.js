@@ -43,10 +43,26 @@ class TableReport extends Component {
         {
           no: 5,
           tanggal: '20 Sept 2021',
-          keterangan: 'Penyaluran uang duka ayahanda Yanuar',
+          keterangan: 'Penyaluran uang duka Ayahanda Yanuar',
           debet: '-',
           kredit: 'Rp540.000',
           saldo: 'Rp1.720.009',
+        },
+        {
+          no: 6,
+          tanggal: '04 Okt 2021',
+          keterangan: 'Pemasukan Donasi Pokok 21/09 sampai 04/10 ',
+          debet: 'Rp1.420.612',
+          kredit: '-',
+          saldo: 'Rp3.140.621',
+        },
+        {
+          no: 7,
+          tanggal: '04 Okt 2021',
+          keterangan: 'Penyaluran uang duka Ibunda Kiki Atmadja',
+          debet: '-',
+          kredit: 'Rp540.000',
+          saldo: 'Rp2.600.621',
         },
       ],
     };
@@ -79,9 +95,12 @@ class TableReport extends Component {
     return (
       <div>
         <br></br>
-        <h1 id='title'>
-          Catatan Pengeluaran Dana Donatur SMANSA 2013 Tahun 2021
-        </h1>
+        <h1 id='title'>Catatan Pengeluaran Dana Kas SMANSA 2013 Tahun 2021</h1>
+        <p>
+          Data berikut merupakan data kas dari donatur yang dikumpulkan setiap
+          bulan yang besarannya telah disepakati dan bukan merupakan dana khusus
+          yang dikumpulkan saat ada kejadian khusus
+        </p>
         <br></br>
         <Table id='students'>
           <Thead>
@@ -91,7 +110,7 @@ class TableReport extends Component {
         </Table>
         <br></br>
         <br></br>
-        Saldo akhir : <b>Rp1.720.009</b>
+        Saldo akhir : <b>Rp2.600.621</b>
         <p id='note'>
           *Untuk tampilan lebih baik dapat menggunakan laptop atau browser
           smartphone dengan mode desktop diaktifkan

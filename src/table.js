@@ -69,7 +69,7 @@ class TableReport extends Component {
           tanggal: '11 Okt 2021',
           keterangan: 'Pemasukan Kas 04/10 sampai 11/10',
           debet: 'Rp120.000',
-          kredit: '',
+          kredit: '-',
           saldo: 'Rp2.720.621',
         },
       ],

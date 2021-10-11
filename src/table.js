@@ -64,6 +64,14 @@ class TableReport extends Component {
           kredit: 'Rp540.000',
           saldo: 'Rp2.600.621',
         },
+        {
+          no: 8,
+          tanggal: '11 Okt 2021',
+          keterangan: 'Pemasukan Kas 04/10 sampai 11/10',
+          debet: 'Rp120.000',
+          kredit: '',
+          saldo: 'Rp2.720.621',
+        },
       ],
     };
   }
@@ -110,7 +118,7 @@ class TableReport extends Component {
         </Table>
         <br></br>
         <br></br>
-        Saldo akhir : <b>Rp2.600.621</b>
+        Saldo akhir : <b>Rp2.720.621</b>
         <p id='note'>
           *Untuk tampilan lebih baik dapat menggunakan laptop atau browser
           smartphone dengan mode desktop diaktifkan

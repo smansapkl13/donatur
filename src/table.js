@@ -72,6 +72,70 @@ class TableReport extends Component {
           kredit: '-',
           saldo: 'Rp2.720.621',
         },
+        {
+          no: 9,
+          tanggal: '20 Okt 2021',
+          keterangan: 'Pemasukan Kas 11/10 sampai 18/10',
+          debet: 'Rp24.000',
+          kredit: '-',
+          saldo: 'Rp2.960.621',
+        },
+        {
+          no: 10,
+          tanggal: '15 Okt 2021',
+          keterangan: 'BIAYA ADM OKTOBER',
+          debet: '-',
+          kredit: 'Rp15.000',
+          saldo: 'Rp2.945.621',
+        },
+        {
+          no: 11,
+          tanggal: '12 November 2021',
+          keterangan: 'Pemasukan Kas 19/10 sampai 12/11',
+          debet: 'Rp1750.000',
+          kredit: '-',
+          saldo: 'Rp3.120.621',
+        },
+        {
+          no: 12,
+          tanggal: '19 November 2021',
+          keterangan: 'BIAYA ADM NOVEMBER',
+          debet: '-',
+          kredit: 'Rp15.000',
+          saldo: 'Rp3.105.621',
+        },
+        {
+          no: 13,
+          tanggal: '1 Desember 2021',
+          keterangan: 'Pemasukan Kas 13/11 sampai 01/12',
+          debet: 'Rp220.000',
+          kredit: '-',
+          saldo: 'Rp3.325.621',
+        },
+        {
+          no: 14,
+          tanggal: '13 Desember 2021',
+          keterangan: 'Pemasukan Kas 02/12 sampai 13/12',
+          debet: 'Rp265.000',
+          kredit: '-',
+          saldo: 'Rp3.590.621',
+        },
+        {
+          no: 15,
+          tanggal: '3 Januari 2022',
+          keterangan: 'Pemasukan Kas 14/12/2021 sampai 31/12/2021',
+          debet: 'Rp1.565.000',
+          kredit: '-',
+          saldo: 'Rp5.155.621,00',
+        },
+        {
+          no: 15,
+          tanggal: '3 Januari 2022',
+          keterangan: 'BIAYA ADM DESEMBER',
+          debet: '-',
+          kredit: 'Rp15.000',
+          saldo: 'Rp5.140.621,00',
+        },
       ],
     };
   }
@@ -118,7 +182,7 @@ class TableReport extends Component {
         </Table>
         <br></br>
         <br></br>
-        Saldo akhir : <b>Rp2.720.621</b>
+        Saldo akhir : <b>Rp5.140.621</b>
         <p id='note'>
           *Untuk tampilan lebih baik dapat menggunakan laptop atau browser
           smartphone dengan mode desktop diaktifkan

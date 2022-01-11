@@ -129,8 +129,8 @@ class TableReport extends Component {
           saldo: 'Rp5.155.621,00',
         },
         {
-          no: 15,
-          tanggal: '3 Januari 2022',
+          no: 16,
+          tanggal: '27 Desember 2022',
           keterangan: 'BIAYA ADM DESEMBER',
           debet: '-',
           kredit: 'Rp15.000',
